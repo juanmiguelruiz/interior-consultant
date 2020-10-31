@@ -10,4 +10,3 @@ Tech: React.
 
 <img src="https://github.com/juanmiguelruiz/interior-consultant/blob/main/src/assets/img/preview.png" alt="" width=100%/>
 
-<img src="https://github.com/juanmiguelruiz/interior-consultant/blob/main/src/assets/img/preview_mobile.png" alt="" width=34%/>
