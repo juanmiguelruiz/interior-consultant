@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar, NavItem, Icon } from "react-materialize";
-import "./styles.css";
+import './styles.css';
 
 const Nav = () => {
   return (
     <Navbar
+    className="nav__ic"
       alignLinks="right"
       brand={
-        <a className="brand-logo" href="/">
+        <a className="brand-logo__ic" href="/">
           THIS INTERIOR
         </a>
       }
@@ -24,7 +25,7 @@ const Nav = () => {
         outDuration: 200,
         preventScrolling: true,
       }}
-    > 
+    >
      <a className="sidenav-close cross" href> <i class="material-icons ">close</i></a>
       <NavItem href="#">Home</NavItem>
       <NavItem href="#">Collection</NavItem>

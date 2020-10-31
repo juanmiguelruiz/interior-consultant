@@ -1,22 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=CrimsonPro:100,200,300,400,500,600,700,800,900);
 
-.avatar {
+.avatar__ic {
   width: 2.5em;
   border-radius: 50%;
 }
 
-.card {
+
+.interior {
+  background-color: #181719;
+}
+
+.card__ic {
   width: 90%;
   margin-top: -30%;
   margin-left: 7%;
   background-color: #181719;
   padding: 1em 3em 0.4em 1.3em;
+  position: relative;
 }
 
 .card__text {
   font-family: CrimsonPro;
   font-size: 1.4em;
   line-height: 1.3vh;
+  color: white;
 }
 
 .footer {
@@ -35,17 +42,17 @@
   border: 1px solid #a9a9a9;
 }
 
-.img {
+.img__ic {
   width: 100%;
 }
 
-.name {
+.name__ic {
   font-size: 0.8em;
   font-family: Montserrat;
   line-height: 0;
 }
 
-.position {
+.position__ic {
   font-size: 0.7em;
   font-family: Montserrat;
   color: #828282;
@@ -61,23 +68,25 @@
   margin-bottom: 1vh !important;
 }
 
-.title {
+.title__ic {
   font-family: Crimson Pro;
   font-size: 2.7em;
   padding-top: 10% !important;
   margin: 0 !important;
+  color: white;
 }
 
-.text {
+.text__ic {
   font-family: Montserrat;
   font-weight: 200;
   padding-right: 3em;
+  color: white;
 }
 
 /*Mobile M*/
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .avatar {
+  .avatar__ic {
     width: 2.7em;
   }
 
@@ -90,11 +99,11 @@
     font-size: 0.9em;
   }
 
-  .name {
+  .name__ic {
     font-size: 0.9em;
   }
 
-  .position {
+  .position__ic {
     font-size: 0.8em;
   }
 }
@@ -102,11 +111,11 @@
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .avatar {
+  .avatar__ic {
     width: 2.7em;
   }
 
-  .card {
+  .card__ic {
     width: 80%;
     padding: 1em em 0.4em 1.3em;
     margin-left: 14%;
@@ -121,11 +130,11 @@
     font-size: 0.9em;
   }
 
-  .name {
+  .name__ic {
     font-size: 0.9em;
   }
 
-  .position {
+  .position__ic {
     font-size: 0.8em;
   }
 }
@@ -133,17 +142,15 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .avatar {
+  .avatar__ic {
     width: 3.5em;
   }
 
-  .card {
+  .card__ic {
     padding: 1em 4em 0.4em 1.3em;
     margin-left: 50%;
     margin-top: -20%;
-
     width: 45%;
-    
   }
 
   .card__text {
@@ -155,23 +162,23 @@
     font-size: 1em;
   }
 
-  .name {
+  .name__ic {
     font-size: 1em;
   }
 
-  .position {
+  .position__ic {
     font-size: 0.9em;
   }
 
-  .readMore{
+  .readMore {
     font-size: 1.4em;
   }
 
-  .title{
+  .title_ic {
     font-size: 3em;
   }
 
-  .text{
+  .text__ic {
     font-size: 1.4em;
   }
 }
@@ -179,23 +186,22 @@
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .container{
+  .container__ic {
     width: 93% !important;
   }
 
-  .img{
+  .img__ic {
     padding-top: 4vh;
     width: 35em;
     right: 0;
     position: relative;
   }
 
-  .card {
+  .card__ic {
     padding: 1em 6em 0.4em 1.3em;
     margin-left: 40%;
     margin-top: -10%;
     width: 50%;
-
   }
 
   .card__text {
@@ -204,23 +210,65 @@
     line-height: 2vh !important;
   }
 
-  hr{
+  hr {
     display: none;
   }
 
-  .footer{
+  .footer {
     position: relative;
-    bottom: -1em;
+    padding-bottom: 1em;
   }
-
- 
-
- 
-
- 
 }
 
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
+  .container__ic {
+    width: 93% !important;
+  }
+
+
+  .img__ic {
+    padding-top: 4vh;
+    width: 50em;
+    right: 0;
+    position: relative;
+  }
+
+  .card__ic {
+    padding: 1em 6em 0.4em 1.3em;
+    margin-left: 60%;
+    margin-top: -20%;
+    width: 40%;
+  }
+
+  .card__text {
+    font-family: CrimsonPro;
+    font-size: 1.5em;
+    line-height: 3.5vh !important;
+  }
+
+  .name__ic{
+    font-size: 1em;
+  }
+  .position__ic{
+    font-size: 1em;
+  }
+  .text__ic{
+    font-size: 1.2em;
+  }
+  .readMore{
+    font-size: 1.2em;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .footer {
+    position: relative;
+    padding: 2em 0;
+    font-size: 1em;
+  }
+
 }

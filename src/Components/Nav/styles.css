@@ -1,19 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=CrimsonPro:100,200,300,400,500,600,700,800,900);
 
-.brand-logo {
+.brand-logo__ic {
   font-family: Crimson Pro;
   border: 1px solid #ffff;
   font-size: 0.8em !important;
   position: relative !important;
-  left: -5em !important;
+  left: 2em !important;
   display: unset !important;
   padding: 2% !important;
 }
 
 .cross {
   position: relative;
-  top: -20vh;
-  left: 70%;
+  top: -6em;
+  left: 69%;
 }
 
 .cross i {
@@ -21,15 +21,18 @@
   font-size: 2em;
 }
 
-nav {
-  background-color: #181719;
+.nav__ic {
+  background-color: #181719 !important;
   box-shadow: none !important;
   font-family: Montserrat;
 }
 
-nav .sidenav-trigger i {
-  right: -7.6em !important;
-  position: relative;
+.nav__ic .sidenav-trigger  {
+  float: right;
+  margin-right: 5%;
+}
+
+.nav__ic .sidenav-trigger i {
   font-size: 2.4em;
 }
 
@@ -37,7 +40,7 @@ nav .sidenav-trigger i {
   width: 100%;
   text-align: center;
   padding-top: 50%;
-  background-color: black;
+  background-color: #181719;
 }
 
 .sidenav li a {
@@ -49,32 +52,25 @@ nav .sidenav-trigger i {
 /*Mobile M*/
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  nav .sidenav-trigger i {
-    right: -9em !important;
-  }
-  .cross {
-    top: -25vh;
-  }
+
+
 }
 
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .brand-logo {
+  .brand-logo__ic {
     font-size: 1em !important;
-    left: -4em !important;
     padding: 2% !important;
   }
-  nav {
-    margin-top: 1%;
+  .nav__ic {
+    padding-top: 1%;
   }
-  nav .sidenav-trigger i {
-    right: -9em !important;
+  .nav__ic .sidenav-trigger i {
+    right: -10em !important;
     font-size: 2.7em;
   }
-  .cross {
-    top: -25vh;
-  }
+
   .sidenav li a {
     font-family: Montserrat;
     color: white;
@@ -85,15 +81,15 @@ nav .sidenav-trigger i {
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .brand-logo {
+  .brand-logo__ic {
     font-size: 1.2em !important;
-    left: -1em !important;
+    left: 4em !important;
     padding: 2% !important;
   }
-  nav {
-    margin-top: 3%;
+  .nav__ic {
+  padding-top: 3%;
   }
-  nav .sidenav-trigger i {
+  .nav__ic .sidenav-trigger i {
     right: -17em !important;
     font-size: 2.7em;
   }
@@ -112,27 +108,44 @@ nav .sidenav-trigger i {
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .brand-logo {
+  .brand-logo__ic {
     font-size: 1em !important;
     left: 3em !important;
     padding: 1% !important;
   }
-  nav {
-    margin-top: 1%;
+  .nav__ic {
+    padding-top: 1%;
   }
 
-  nav ul {
+  .nav__ic ul {
     right: 1em;
     position: relative;
   }
 
-  nav ul li{
+  .nav__ic ul li{
     padding-right: 3em;
   }
-  
+
 }
 
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
+  .brand-logo__ic {
+    font-size: 1em !important;
+    left: 3em !important;
+    padding: 1% !important;
+  }
+  .nav__ic {
+    padding-top: 1%;
+  }
+
+  .nav__ic ul {
+    right: 1em;
+    position: relative;
+  }
+
+  .nav__ic ul li{
+    padding-right: 3em;
+  }
 }

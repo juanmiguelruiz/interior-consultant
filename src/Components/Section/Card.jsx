@@ -1,20 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Row, Col, CardPanel } from "react-materialize";
-import "./styles.css";
 
 const Card = ({text, position, name, photo}) => {
   return (
     <Row>
       <Col s={12}>
-        <CardPanel className="card">
+        <CardPanel className="card__ic">
           <div className="row">
             <div className="col s3">
-              <img src={photo} alt="" className="avatar" />
+              <img src={photo} alt="" className="avatar__ic" />
             </div>
             <div className="col s9">
-              <p className="name">{name}</p>
-              <p className="position">{position}</p>
+              <p className="name__ic">{name}</p>
+              <p className="position__ic">{position}</p>
             </div>
 
             <div className="col s12">
