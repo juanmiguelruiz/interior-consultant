@@ -5,26 +5,24 @@ import { Row, Col, CardPanel } from "react-materialize";
 const Card = ({text, position, name, photo}) => {
   return (
     <Row>
-      <Col s={12}>
-        <CardPanel className="card__ic">
-          <div className="row">
-            <div className="col s3">
-              <img src={photo} alt="" className="avatar__ic" />
-            </div>
-            <div className="col s9">
-              <p className="name__ic">{name}</p>
-              <p className="position__ic">{position}</p>
-            </div>
+     <Col s={12}>
+       <CardPanel className="interior__card">
+         <div className="row">
+           <div className="col s3">
+             <img src={photo} alt="" className="interior__avatar" />
+           </div>
+           <div className="col s9">
+             <p className="interior__name">{name}</p>
+             <p className="interior__position">{position}</p>
+           </div>
 
-            <div className="col s12">
-              <span className="card__text">
-                {text}
-              </span>
-            </div>
-          </div>
-        </CardPanel>
-      </Col>
-    </Row>
+           <div className="col s12">
+             <span className="interior__card__text">{text}</span>
+           </div>
+         </div>
+       </CardPanel>
+     </Col>
+   </Row>
   );
 };
 

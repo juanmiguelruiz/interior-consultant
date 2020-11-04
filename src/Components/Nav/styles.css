@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=CrimsonPro:100,200,300,400,500,600,700,800,900);
 
-.brand-logo__ic {
+.interior__brand-logo {
   font-family: Crimson Pro;
   border: 1px solid #ffff;
   font-size: 0.8em !important;
@@ -10,29 +10,29 @@
   padding: 2% !important;
 }
 
-.cross {
+.interior__cross {
   position: relative;
   top: -6em;
   left: 69%;
 }
 
-.cross i {
+.interior__cross i {
   color: white !important;
   font-size: 2em;
 }
 
-.nav__ic {
+.interior__nav {
   background-color: #181719 !important;
   box-shadow: none !important;
   font-family: Montserrat;
 }
 
-.nav__ic .sidenav-trigger  {
+.interior__nav .sidenav-trigger {
   float: right;
   margin-right: 5%;
 }
 
-.nav__ic .sidenav-trigger i {
+.interior__nav .sidenav-trigger i {
   font-size: 2.4em;
 }
 
@@ -49,24 +49,17 @@
   font-size: 1.5em;
 }
 
-/*Mobile M*/
-
-@media screen and (min-width: 375px) and (max-width: 424px) {
-
-
-}
-
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .brand-logo__ic {
+  .interior__brand-logo {
     font-size: 1em !important;
     padding: 2% !important;
   }
-  .nav__ic {
+  .interior__nav {
     padding-top: 1%;
   }
-  .nav__ic .sidenav-trigger i {
+  .interior__nav .sidenav-trigger i {
     right: -10em !important;
     font-size: 2.7em;
   }
@@ -81,19 +74,19 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .brand-logo__ic {
+  .interior__brand-logo {
     font-size: 1.2em !important;
     left: 4em !important;
     padding: 2% !important;
   }
-  .nav__ic {
-  padding-top: 3%;
+  .interior__nav {
+    padding-top: 3%;
   }
-  .nav__ic .sidenav-trigger i {
+  .interior__nav .sidenav-trigger i {
     right: -17em !important;
     font-size: 2.7em;
   }
-  .cross {
+  .interior__cross {
     top: -30vh;
     left: 17em;
   }
@@ -108,44 +101,43 @@
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .brand-logo__ic {
+  .interior__brand-logo {
     font-size: 1em !important;
     left: 3em !important;
     padding: 1% !important;
   }
-  .nav__ic {
+  .interior__nav {
     padding-top: 1%;
   }
 
-  .nav__ic ul {
+  .interior__nav ul {
     right: 1em;
     position: relative;
   }
 
-  .nav__ic ul li{
+  .interior__nav ul li {
     padding-right: 3em;
   }
-
 }
 
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
-  .brand-logo__ic {
+  .interior__brand-logo {
     font-size: 1em !important;
     left: 3em !important;
     padding: 1% !important;
   }
-  .nav__ic {
+  .interior__nav {
     padding-top: 1%;
   }
 
-  .nav__ic ul {
+  .interior__nav ul {
     right: 1em;
     position: relative;
   }
 
-  .nav__ic ul li{
+  .interior__nav ul li {
     padding-right: 3em;
   }
 }

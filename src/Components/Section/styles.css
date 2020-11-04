@@ -1,16 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=CrimsonPro:100,200,300,400,500,600,700,800,900);
 
-.avatar__ic {
+.interior__avatar {
   width: 2.5em;
   border-radius: 50%;
 }
-
 
 .interior {
   background-color: #181719;
 }
 
-.card__ic {
+.interior__card {
   width: 90%;
   margin-top: -30%;
   margin-left: 7%;
@@ -19,14 +18,14 @@
   position: relative;
 }
 
-.card__text {
+.interior__card__text {
   font-family: CrimsonPro;
   font-size: 1.4em;
   line-height: 1.3vh;
   color: white;
 }
 
-.footer {
+.interior__footer {
   position: relative;
   text-align: center;
   padding: 3%;
@@ -38,37 +37,37 @@
   color: #a9a9a9;
 }
 
-.footer hr {
+.interior__footer hr {
   border: 1px solid #a9a9a9;
 }
 
-.img__ic {
+.interior__img {
   width: 100%;
 }
 
-.name__ic {
+.interior__name {
   font-size: 0.8em;
   font-family: Montserrat;
   line-height: 0;
 }
 
-.position__ic {
+.interior__position {
   font-size: 0.7em;
   font-family: Montserrat;
   color: #828282;
 }
 
-.readMore {
+.interior__read-more {
   color: white;
   font-family: Montserrat;
 }
 
-.section__second {
-  padding-top: 4vh !important;
+.interior__section__second {
+  padding-top: 7vh !important;
   margin-bottom: 1vh !important;
 }
 
-.title__ic {
+.interior__title {
   font-family: Crimson Pro;
   font-size: 2.7em;
   padding-top: 10% !important;
@@ -76,7 +75,7 @@
   color: white;
 }
 
-.text__ic {
+.interior__text {
   font-family: Montserrat;
   font-weight: 200;
   padding-right: 3em;
@@ -86,24 +85,24 @@
 /*Mobile M*/
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .avatar__ic {
+  .interior__avatar {
     width: 2.7em;
   }
 
-  .card__text {
+  .interior__card__text {
     font-family: CrimsonPro;
     font-size: 1.7em;
     line-height: 3.8vh !important;
   }
-  .footer {
+  .interior__footer {
     font-size: 0.9em;
   }
 
-  .name__ic {
+  .interior__name {
     font-size: 0.9em;
   }
 
-  .position__ic {
+  .interior__position {
     font-size: 0.8em;
   }
 }
@@ -111,30 +110,30 @@
 /*Mobile L*/
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .avatar__ic {
+  .interior__avatar {
     width: 2.7em;
   }
 
-  .card__ic {
+  .interior__card {
     width: 80%;
     padding: 1em em 0.4em 1.3em;
     margin-left: 14%;
   }
 
-  .card__text {
+  .interior__card__text {
     font-family: CrimsonPro;
     font-size: 1.7em;
     line-height: 3.8vh !important;
   }
-  .footer {
+  .interior__footer {
     font-size: 0.9em;
   }
 
-  .name__ic {
+  .interior__name {
     font-size: 0.9em;
   }
 
-  .position__ic {
+  .interior__position {
     font-size: 0.8em;
   }
 }
@@ -142,35 +141,35 @@
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .avatar__ic {
+  .interior__avatar {
     width: 3.5em;
   }
 
-  .card__ic {
+  .interior__card {
     padding: 1em 4em 0.4em 1.3em;
     margin-left: 50%;
     margin-top: -20%;
     width: 45%;
   }
 
-  .card__text {
+  .interior__card__text {
     font-family: CrimsonPro;
     font-size: 1.7em;
     line-height: 3.8vh !important;
   }
-  .footer {
+  .interior__footer {
     font-size: 1em;
   }
 
-  .name__ic {
+  .interior__name {
     font-size: 1em;
   }
 
-  .position__ic {
+  .interior__position {
     font-size: 0.9em;
   }
 
-  .readMore {
+  .interior__read-more {
     font-size: 1.4em;
   }
 
@@ -178,7 +177,7 @@
     font-size: 3em;
   }
 
-  .text__ic {
+  .interior__text {
     font-size: 1.4em;
   }
 }
@@ -190,21 +189,21 @@
     width: 93% !important;
   }
 
-  .img__ic {
+  .interior__img {
     padding-top: 4vh;
     width: 35em;
     right: 0;
     position: relative;
   }
 
-  .card__ic {
+  .interior__card {
     padding: 1em 6em 0.4em 1.3em;
     margin-left: 40%;
     margin-top: -10%;
     width: 50%;
   }
 
-  .card__text {
+  .interior__card__text {
     font-family: CrimsonPro;
     font-size: 1.2em;
     line-height: 2vh !important;
@@ -214,7 +213,7 @@
     display: none;
   }
 
-  .footer {
+  .interior__footer {
     position: relative;
     padding-bottom: 1em;
   }
@@ -227,37 +226,36 @@
     width: 93% !important;
   }
 
-
-  .img__ic {
+  .interior__img {
     padding-top: 4vh;
     width: 50em;
     right: 0;
     position: relative;
   }
 
-  .card__ic {
+  .interior__card {
     padding: 1em 6em 0.4em 1.3em;
     margin-left: 60%;
     margin-top: -20%;
     width: 40%;
   }
 
-  .card__text {
+  .interior__card__text {
     font-family: CrimsonPro;
     font-size: 1.5em;
     line-height: 3.5vh !important;
   }
 
-  .name__ic{
+  .interior__name {
     font-size: 1em;
   }
-  .position__ic{
+  .interior__position {
     font-size: 1em;
   }
-  .text__ic{
+  .interior__text {
     font-size: 1.2em;
   }
-  .readMore{
+  .interior__read-more {
     font-size: 1.2em;
   }
 
@@ -265,10 +263,9 @@
     display: none;
   }
 
-  .footer {
+  .interior__footer {
     position: relative;
     padding: 2em 0;
     font-size: 1em;
   }
-
 }

@@ -1,13 +1,13 @@
 import "./App.css";
-import Nav from "./Components/Nav";
-import Section from "./Components/Section";
+import Nav from "./components/Nav";
+import Section from "./components/Section";
 
 function App() {
   return (
     <div className="App">
      <Nav/>
      <Section/>
-      
+
     </div>
   );
 }
