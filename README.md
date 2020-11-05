@@ -9,7 +9,7 @@ User story: I can see a page following the given design
 User story: On mobile, I can see a collapsed navigation
 User story: On mobile, when I select the hamburger menu, I can see a navigation.
 
-Tech: React.
+Tech: ReactJS.
 
 <img src="https://github.com/juanmiguelruiz/interior-consultant/blob/main/src/assets/img/preview.png" alt="" width=100%/>
 
